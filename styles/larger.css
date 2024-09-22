@@ -1,0 +1,22 @@
+/* Styles for larger screens with dusty blue color scheme */
+
+@media screen and (min-width: 768px) {
+    /* Navigation is horizontal in larger view */
+    .topnav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .topnav a {
+        margin: 0 15px;
+    }
+
+    /* Main content uses grid layout for larger screens */
+    main {
+        grid-template-columns: 2fr 1fr; 
+    }
+
+    .card {
+        margin: 10px;
+    }
+}

@@ -4,28 +4,48 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta description="WDD 230 - Web Frontend Development, Jessen Forbush, course assignment portal" />
-    <meta author="Jessen Forbush" />
+    <meta name="description" content="WDD 230 - Web Frontend Development, Jessen Forbush, course assignment portal" />
+    <meta name="author" content="Jessen Forbush" />
     <title>Jessen Forbush - WDD 230 - Web Frontend Development</title>
+    <link href="/styles/base.css" rel="stylesheet" />
+    <link href="/styles/larger.css" rel="stylesheet"/>
 </head>
 
 <body>
     <header>
-        <img id="profile" src="/images/jessenpic.jpg" alt="picture of college student">
+        <img id="profile" src="images/jessenpic.jpg" alt="Your profile photo" />
+        <span>Jessen Forbush</span>
     </header>
-    <nav>
-        <div class=topnav>
-            <a class="home" href="#home">Home</a>
-            <a href="#chamber">Chamber</a>
-            <a href="#siteplan">Siteplan</a>
-            <a href="#form">Form</a>
-        </div>
+
+    <nav class="topnav">
+        <a href="#">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Site Plan</a>
+        <a href="#">Form</a>
     </nav>
+
     <main>
-        <P>Welcome</P>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <section class="card">
+            <h2>Learning Activities</h2>
+            <ul>
+                <li><a href="#">Activity 1</a></li>
+                <li><a href="#">Activity 2</a></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Information</h2>
+            <p>Weather Information Placeholder</p>
+            <p>Number of Visits Placeholder</p>
+        </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Jessen Forbush, United States</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
 </body>
 
 </html>
