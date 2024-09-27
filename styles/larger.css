@@ -1,6 +1,6 @@
 /* Styles for larger screens with dusty blue color scheme */
-
 @media screen and (min-width: 768px) {
+
     /* Navigation is horizontal in larger view */
     .topnav {
         flex-direction: row;
@@ -11,12 +11,46 @@
         margin: 0 15px;
     }
 
-    /* Main content uses grid layout for larger screens */
+    /* Main content in a card-like layout */
     main {
-        grid-template-columns: 2fr 1fr; 
+        display: grid;
+        justify-content: center;  /* Centers the main content horizontally */
+        align-items: center;      /* Centers the main content vertically */
+        grid-template-columns: 1fr; /* Single column for the content */
+        gap: 20px;
+        padding: 40px;
+        background-color: #E8DED1;
+        border-radius: 12px;  /* Card-like structure */
+        max-width: 1000px;  /* Limit the width of the card */
+        margin: 20px auto;  /* Center the card horizontally */
+    }
+
+    /* Center title and keep the cards where they are */
+    .card-title {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    /* Card container stays as is */
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns for cards */
+        gap: 20px; /* Space between the cards */
     }
 
     .card {
-        margin: 10px;
+        padding: 20px;
+        background-color: #A7BCC2;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    /* Adjust footer style */
+    footer {
+        text-align: center;
+        background-color: #333333;
+        color: #ffffff;
+        padding: 20px;
     }
 }
