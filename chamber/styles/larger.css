@@ -1,0 +1,24 @@
+/* Larger Screen Styles */
+@media (min-width: 600px) {
+    .nav-menu {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .hero {
+        height: 70vh;
+    }
+
+    .spotlights {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .spotlight {
+        width: 30%;
+    }
+}
