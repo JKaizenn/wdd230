@@ -1,0 +1,71 @@
+/* Custom Normalization CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 0.5em; 
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+
+img {
+    display: block;
+    max-width: 100%; 
+    height: auto;
+}
+
+
+input, button, textarea, select {
+    font: inherit; 
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}

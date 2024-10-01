@@ -13,12 +13,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="styles/base.css?v=1.0" rel="stylesheet">
     <link href="styles/larger.css?v=1.0" rel="stylesheet">
+        <link href="styles/normalize.css?v=1.0" rel="stylesheet">
     <link rel="icon" href="/images/favicon.ico">
+
 </head>
+
 <body>
     <header>
         <img id="profile" src="images/jessenpic.jpg" loading="lazy" alt="Your profile photo" />
         <span>Jessen Forbush</span>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
     </header>
 
     <nav class="topnav">
@@ -28,6 +32,7 @@
         <a href="#">Site Plan</a>
         <a href="#">Form</a>
     </nav>
+
     <main>
         <div class="card-wrapper">
             <div class="card-title">
@@ -38,7 +43,8 @@
                     <h2>Learning Activities</h2>
                     <ul>
                         <li><a href="#">Week 1</a></li>
-                        <li>Week 2: <a href="week02/design.html">Design Principles</a> | <a href="">Responsive Hamburger Menu</a> | <a href="">DOM Manipulation</a></li>
+                        <li>Week 2: <a href="week02/design.html">Design Principles</a> | <a href="">Responsive Hamburger
+                                Menu</a> | <a href="">DOM Manipulation</a></li>
                     </ul>
                 </section>
                 <section class="card">
@@ -57,6 +63,7 @@
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menuToggle.js"></script>
+    <script src="scripts/darkModeToggle.js"></script>
 </body>
 
 </html>

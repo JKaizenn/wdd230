@@ -56,6 +56,7 @@ main {
     gap: 20px; /* Space between sections */
     margin: 20px;
 }
+
 .hamburger {
     display: none;
     font-size: 30px;
@@ -78,6 +79,7 @@ main {
         display: block;
     }
 }
+
 .cards-container {
     display: grid;
     grid-template-columns: 1fr; /* Stack sections in one column */
@@ -102,4 +104,38 @@ footer {
 
 footer p {
     margin: 5px 0;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header.dark-mode {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.topnav.dark-mode {
+    background-color: #333333;
+}
+
+.topnav.dark-mode a {
+    color: #ffffff;
+}
+
+.card.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+footer.dark-mode {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+/* Extra hover styles for dark mode */
+.topnav.dark-mode a:hover {
+    background-color: #444444;
 }
