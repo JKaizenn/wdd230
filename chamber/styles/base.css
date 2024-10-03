@@ -1,18 +1,18 @@
 /* Base Styles */
 
 body {
-    font-family: 'Roboto', sans-serif;  /* Consistent font with homepage */
-    background-color: #f4f4f4;          /* Light background color */
-    color: #333333;                     /* Dark text color */
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ffffff;          /* Light background for the header */
+    background-color: #ffffff;
     color: #333333;
     padding: 1rem;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header nav {
@@ -34,8 +34,9 @@ header nav {
 }
 
 .hero {
-    background: url('../images/rexburg.webp') no-repeat center center/cover;
-    height: 60vh;                     /* Large hero image */
+    height: 60vh;                     /* Keep large hero image size */
+    background-position: center;
+    background-size: cover;
     position: relative;
     color: white;
     display: flex;
@@ -45,7 +46,7 @@ header nav {
 }
 
 .hero-text {
-    background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background for readability */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 10px;
 }
@@ -53,14 +54,14 @@ header nav {
 .cta, .events, .weather, .spotlights {
     padding: 2rem;
     text-align: center;
-    background-color: #ffffff;         /* Light background for sections */
+    background-color: #ffffff;
     margin: 20px auto;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .cta h2, .events h2, .weather h2, .spotlights h2 {
-    color: #333333;                    /* Dark text color for headings */
+    color: #333333;
     margin-bottom: 1rem;
 }
 
@@ -74,15 +75,15 @@ header nav {
 }
 
 .btn:hover {
-    background-color: #b2beb5; /* Hover effect */
+    background-color: #007BFF;
 }
 
 footer {
-    background-color: #f4f4f4;  /* Light background color for the footer */
+    background-color: #f4f4f4;
     color: #333333;
     text-align: center;
     padding: 1rem;
-    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); /* Shadow for separation */
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
