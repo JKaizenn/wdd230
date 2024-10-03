@@ -19,7 +19,6 @@
         grid-template-columns: 1fr; /* Single column for the content */
         gap: 20px;
         padding: 40px;
-        background-color: #E8DED1;
         border-radius: 12px;  /* Card-like structure */
         max-width: 1000px;  /* Limit the width of the card */
         margin: 20px auto;  /* Center the card horizontally */
@@ -41,7 +40,6 @@
 
     .card {
         padding: 20px;
-        background-color: #A7BCC2;
         border-radius: 8px;
         text-align: center;
     }
@@ -49,7 +47,6 @@
     /* Adjust footer style */
     footer {
         text-align: center;
-        background-color: #333333;
         color: #ffffff;
         padding: 20px;
     }
