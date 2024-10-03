@@ -34,24 +34,33 @@ header nav {
 }
 
 .hero {
-    background-image: url('../images/rexburg.webp'); /* Relative path based on folder structure */
-    height: 60vh;
-    background-position: center;
-    background-size: cover;
     position: relative;
-    color: white;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Makes the image cover the section */
+    z-index: -1;  /* Send the image behind the text */
+}
 
 .hero-text {
-    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;  /* Keep the text above the image */
+    background-color: rgba(0, 0, 0, 0.5);  /* Dark overlay for better text visibility */
     padding: 2rem;
     border-radius: 10px;
+    color: white;
 }
+
 
 .cta, .events, .weather, .spotlights {
     padding: 2rem;
