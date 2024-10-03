@@ -34,7 +34,8 @@ header nav {
 }
 
 .hero {
-    height: 60vh;                     /* Keep large hero image size */
+    background-image: url('../images/rexburg.webp'); /* Relative path based on folder structure */
+    height: 60vh;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -44,6 +45,7 @@ header nav {
     justify-content: center;
     text-align: center;
 }
+
 
 .hero-text {
     background-color: rgba(0, 0, 0, 0.5);
@@ -75,7 +77,7 @@ header nav {
 }
 
 .btn:hover {
-    background-color: #007BFF;
+    background-color: #0056b3;
 }
 
 footer {
@@ -88,4 +90,71 @@ footer {
 
 footer p {
     margin: 0.5rem 0;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 600px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    .hero {
+        height: 40vh; /* Shorter hero section for mobile */
+    }
+
+    .hero-text {
+        padding: 1rem; /* Reduce padding for hero text */
+        font-size: 1.2rem; /* Make text smaller for mobile view */
+    }
+
+    .cta, .events, .weather, .spotlights {
+        padding: 1rem; /* Reduce padding for sections on mobile */
+        margin: 10px auto;
+    }
+
+    .spotlights {
+        display: block; /* Stack spotlights vertically */
+    }
+
+    .spotlight {
+        width: 100%;
+        margin-bottom: 15px; /* Add margin between stacked spotlight items */
+    }
+
+    .btn {
+        padding: 0.8rem 2rem; /* Increase button padding for easier touch targets */
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 0.5rem;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    /* When hamburger is clicked, show nav-menu */
+    .nav-menu.show {
+        display: block;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 1rem 0;
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+    }
+
+    .nav-menu a {
+        font-size: 1.2rem;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+        color: #333333;
+    }
 }

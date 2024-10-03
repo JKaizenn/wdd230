@@ -1,4 +1,6 @@
-document.getElementById("hamburger").addEventListener("click", function () {
-  const navMenu = document.getElementById("nav-menu");
-  navMenu.style.display = navMenu.style.display === "block" ? "none" : "block";
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("nav-menu");
+
+hamburger.addEventListener("click", () => {
+  navMenu.classList.toggle("show"); /* Toggle class to show or hide the menu */
 });
