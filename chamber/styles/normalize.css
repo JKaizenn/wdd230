@@ -16,5 +16,18 @@ img {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: inherit;  /* Remove underline and keep link color consistent */
+}
+
+ul, li {
+    list-style: none;  /* Remove default list styling */
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+input, button, select, textarea {
+    font: inherit;  /* Ensure form elements inherit font styles */
 }

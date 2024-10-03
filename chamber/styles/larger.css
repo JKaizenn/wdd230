@@ -2,7 +2,7 @@
 @media (min-width: 600px) {
     .nav-menu {
         display: flex;
-        gap: 2rem;
+        gap: 2rem;  /* Increase spacing between menu items */
     }
 
     .hamburger {
@@ -10,15 +10,27 @@
     }
 
     .hero {
-        height: 70vh;
+        height: 70vh;  /* Larger hero section for larger screens */
     }
 
     .spotlights {
         display: flex;
         justify-content: space-around;
+        gap: 20px;  /* Add spacing between spotlight items */
     }
 
     .spotlight {
         width: 30%;
+    }
+
+    .cta, .events, .weather, .spotlights {
+        max-width: 1200px;  /* Limit section width on larger screens */
+        margin: 20px auto;
+        padding: 2rem;
+    }
+
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
     }
 }
