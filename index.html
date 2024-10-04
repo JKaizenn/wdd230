@@ -25,7 +25,7 @@
 
 <body>
     <header>
-        <img id="profile" src="images/jessenpic.jpg" loading="lazy" alt="Your profile photo" />
+        <img id="profile" src="/images/jessenpic.jpg" loading="lazy" alt="Your profile photo" />
         <span>Jessen Forbush</span>
         <button id="darkModeToggle">Dark Mode</button>
     </header>
@@ -39,6 +39,13 @@
     </nav>
 
     <main>
+        <picture>
+            <source srcset="/images/TempleLandscape.webp" media="(min-width: 961px)">
+            <source srcset="/images/TemplePortrait.webp" media="(max-width: 960px)">
+            <img src="images/temple-large.webp" alt="Favorite Latter-day temple" loading="lazy">
+            <div class="overlay">Provo City Center Temple</div>
+        </picture>
+
         <div class="card-wrapper">
             <div class="card-title">
                 <h1>WDD 230: Web Frontend Development</h1>
@@ -48,18 +55,22 @@
                     <h2>Learning Activities</h2>
                     <ul>
                         <li><a href="#">Week 1</a></li>
-                        <li>Week 2: <a href="week02/design.html">Design Principles</a> | <a href="">Responsive
-                                HamburgerMenu</a> | <a href="">DOM Manipulation</a></li>
-                        <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy Loading</a>
-                        </li>
+                        <li>Week 2: <a href="week02/design.html">Design Principles</a> | <a href="">Responsive Hamburger
+                                Menu</a> | <a href="">DOM Manipulation</a></li>
                     </ul>
                 </section>
                 <section class="card">
                     <h2>Information</h2>
                     <p>Weather Information Placeholder</p>
-                    <p>Number of Visits Placeholder</p>
+                    <p>Number of Visits: <span id="visitCounter"></span></p>
                 </section>
             </div>
+        </div>
+
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.931768915118!2d-111.6618918238953!3d40.232819266812136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9753f01c3b83%3A0x5d2cd1f074758bb7!2sProvo%20City%20Center%20Temple!5e0!3m2!1sen!2sus!4v1728062889779!5m2!1sen!2sus"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </main>
 
@@ -71,6 +82,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menuToggle.js"></script>
     <script src="scripts/darkModeToggle.js"></script>
+    <script src="scripts/visitCounter.js"></script>
 </body>
 
 </html>
