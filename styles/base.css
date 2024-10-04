@@ -63,6 +63,17 @@ header span {
     background-color: #FFF5E1;
 }
 
+/* Hamburger menu styles */
+.hamburger {
+    display: none;
+    font-size: 35px;
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+}
+
 /* Main content styles */
 main {
     display: grid;
@@ -76,18 +87,7 @@ main {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Hamburger menu styles */
-.hamburger {
-    display: none;
-    font-size: 35px;
-    padding: 10px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #000000;
-}
-
-/* Card styles */
+/* Cards container */
 .cards-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -185,14 +185,20 @@ footer.dark-mode {
 }
 
 /* Image and overlay styles */
-picture {
+.hero-container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.hero-container picture {
     display: block;
     max-width: 100%;
-    position: relative;
     overflow: hidden;
 }
 
-picture img {
+.hero-container img {
     width: 100%;
     height: auto;
     display: block;
@@ -208,17 +214,19 @@ picture img {
     padding: 5px 10px;
     white-space: nowrap;
 }
+
+/* Map container */
 .map-container {
     width: 100%;
-    max-width: 600px; 
-    height: 450px; 
-    margin: 20px auto; 
-    text-align: center; 
+    max-width: 600px;
+    height: 450px;
+    margin: 20px auto;
+    text-align: center;
 }
 
 .map-container iframe {
     display: block;
     width: 100%;
     height: 100%;
-    border: 0; 
+    border: 0;
 }

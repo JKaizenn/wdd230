@@ -24,8 +24,9 @@
 </head>
 
 <body>
+
     <header>
-        <img id="profile" src="/images/jessenpic.jpg" loading="lazy" alt="Your profile photo" />
+        <img id="profile" src="images/jessenpic.jpg" loading="lazy" alt="Your profile photo">
         <span>Jessen Forbush</span>
         <button id="darkModeToggle">Dark Mode</button>
     </header>
@@ -39,17 +40,20 @@
     </nav>
 
     <main>
-        <picture>
-            <source srcset="/images/TempleLandscape.webp" media="(min-width: 961px)">
-            <source srcset="/images/TemplePortrait.webp" media="(max-width: 960px)">
-            <img src="images/temple-large.webp" alt="Favorite Latter-day temple" loading="lazy">
+        <div class="hero-container">
+            <picture>
+                <source srcset="images/TempleLandscape.webp" media="(min-width: 961px)">
+                <source srcset="images/TemplePortrait.webp" media="(max-width: 960px)">
+                <img src="images/TempleLandscape.webp" alt="Favorite Latter-day temple" loading="lazy">
+            </picture>
             <div class="overlay">Provo City Center Temple</div>
-        </picture>
+        </div>
 
         <div class="card-wrapper">
             <div class="card-title">
                 <h1>WDD 230: Web Frontend Development</h1>
             </div>
+
             <div class="cards-container">
                 <section class="card">
                     <h2>Learning Activities</h2>
@@ -59,6 +63,7 @@
                                 Menu</a> | <a href="">DOM Manipulation</a></li>
                     </ul>
                 </section>
+
                 <section class="card">
                     <h2>Information</h2>
                     <p>Weather Information Placeholder</p>
@@ -83,6 +88,7 @@
     <script src="scripts/menuToggle.js"></script>
     <script src="scripts/darkModeToggle.js"></script>
     <script src="scripts/visitCounter.js"></script>
+
 </body>
 
 </html>
