@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development by Jessen Forbush. This page serves as a course assignment portal for learning activities, projects, and web development resources.">
+    <meta name="author" content="Jessen Forbush">
+    <title>Jessen Forbush - WDD 230 - Web Frontend Development</title>
+    <meta property="og:title" content="Jessen Forbush - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jkaizenn.github.io/wdd230/">
+    <meta property="og:image" content="https://jkaizenn.github.io/wdd230/images/jessenpic.jpg">
+    <meta property="og:description"
+        content="A course assignment portal for WDD 230, covering web frontend development activities and resources.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="styles/base.css?v=1.0" rel="stylesheet">
+    <link href="styles/larger.css?v=1.0" rel="stylesheet">
+    <link href="styles/normalize.css?v=1.0" rel="stylesheet">
+    <link rel="icon" href="/images/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <img id="profile" src="images/jessenpic.jpg" loading="lazy" alt="Your profile photo">
+        <span>Jessen Forbush</span>
+        <button id="darkModeToggle">Dark Mode</button>
+    </header>
+
+    <nav class="topnav">
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <a href="#">Home</a>
+        <a href="/chamber/index.html">Chamber</a>
+        <a href="/week01/chamber-site-plan.html">Site Plan</a>
+        <a href="#">Form</a>
+    </nav>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Jessen Forbush, United States</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menuToggle.js"></script>
+    <script src="scripts/darkModeToggle.js"></script>
+    <script src="scripts/visitCounter.js"></script>
+
+</body>
+
+</html>
