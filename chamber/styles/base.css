@@ -137,7 +137,8 @@ footer p {
 
 .localPhoto {
     width: 100%;
-    height: auto;
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the space without distortion */
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
@@ -159,4 +160,76 @@ footer p {
     .localPhotos {
         grid-template-columns: 1fr; /* Stack images vertically */
     }
+
+    .localPhoto {
+        height: 150px; /* Adjust height for smaller screens */
+    }
+}
+
+
+/* Calendar Section Styling */
+.calendar-section {
+    margin-bottom: 20px;
+}
+
+#calendar table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#calendar th, #calendar td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+#calendar th {
+    background-color: #333;
+    color: white;
+}
+
+#calendar td {
+    background-color: #f4f4f4;
+}
+
+/* Lightbox container - hidden by default */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Lightbox content (expanded image) */
+.lightbox-content {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Close button (top right corner) */
+.lightbox .close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lightbox .close:hover {
+    color: #bbb;
 }
