@@ -105,9 +105,3 @@ closeBtn.addEventListener('click', function() {
     lightbox.style.display = 'none';
 });
 
-// Close the lightbox when clicking outside the image
-lightbox.addEventListener('click', function(e) {
-    if (e.target === lightbox) {
-        lightbox.style.display = 'none';
-    }
-});
