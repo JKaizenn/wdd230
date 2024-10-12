@@ -8,5 +8,7 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
         document.getElementById('confirmPassword').value = '';
         document.getElementById('password').focus();
         event.preventDefault();
+    } else {
+        alert('Form has been filled out correctly.');
     }
 });
