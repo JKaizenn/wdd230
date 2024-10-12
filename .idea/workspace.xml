@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Fixed Meta Element Errors" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JKaizenn&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JKaizenn/wdd230.git&quot;,
+    &quot;accountId&quot;: &quot;e75d5ac8-4457-4d50-9a99-d1ed22b4d80a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2nJgqXWBbeuSmZy3qsM3hSb7uwp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.discover.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.menuToggle.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="" />
+      <created>1728696784158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728696784158</updated>
+      <workItem from="1728696785608" duration="23000" />
+      <workItem from="1728696813183" duration="2534000" />
+      <workItem from="1728750356706" duration="99000" />
+      <workItem from="1728750461947" duration="4048000" />
+      <workItem from="1728754843623" duration="237000" />
+      <workItem from="1728755170608" duration="459000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fixed Discover Page">
+      <option name="closed" value="true" />
+      <created>1728752143096</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728752143096</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed Meta Element Errors">
+      <option name="closed" value="true" />
+      <created>1728752615852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728752615852</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed Meta Element Errors">
+      <option name="closed" value="true" />
+      <created>1728752625739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728752625739</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed Meta Element Errors">
+      <option name="closed" value="true" />
+      <created>1728752762595</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728752762595</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed Meta Element Errors">
+      <option name="closed" value="true" />
+      <created>1728752817661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728752817661</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed Meta Element Errors">
+      <option name="closed" value="true" />
+      <created>1728752921795</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728752921795</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed Meta Element Errors">
+      <option name="closed" value="true" />
+      <created>1728755068242</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728755068242</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed Discover Page" />
+    <MESSAGE value="Fixed Meta Element Errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Meta Element Errors" />
+  </component>
+</project>
