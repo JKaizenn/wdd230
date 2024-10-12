@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Form" title="Form">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+<header>
+    <img alt="Your profile photo" id="profile" loading="lazy" src="images/jessenpic.jpg">
+    <span>Jessen Forbush</span>
+    <button id="darkModeToggle">Dark Mode</button>
+</header>
+
+<nav class="topnav">
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    <a href="#">Home</a>
+    <a href="chamber/index.html">Chamber</a>
+    <a href="week01/chamber-site-plan.html">Site Plan</a>
+    <a href="#">Form</a>
+</nav>
+    <main>
+    <form id="userForm" action="record.html" method="get">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters long and contain only alpha-numeric characters.">
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address from the byui.edu domain.">
+
+        <label for="rating">Page Rating:</label>
+        <input type="range" id="rating" name="rating" min="1" max="10" step="1" oninput="document.getElementById('ratingValue').textContent = this.value;">
+        <span id="ratingValue">5</span>
+
+        <button type="submit">Submit</button>
+    </form>
+</main>
+
+
+<footer>
+
+    <p>&copy; <span id="currentYear"></span> Jessen Forbush, United States</p>
+    <p id="lastModified"></p>
+</footer>
+<script src="scripts/getDates.js"></script>
+<script src="scripts/menuToggle.js"></script>
+<script src="scripts/darkModeToggle.js"></script>
+<script src="scripts/visitCounter.js"></script>
+<script src="scripts/userForm.js"></script>
+</body>
+</html>

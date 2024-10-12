@@ -230,3 +230,39 @@ footer.dark-mode {
     height: 100%;
     border: 0;
 }
+
+
+/* Styles for form */
+:root {
+    --form-padding: 20px;
+    --input-margin: 10px 0;
+    --button-color: #4CAF50;
+}
+
+form {
+    padding: var(--form-padding);
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    margin-top: var(--input-margin);
+}
+
+input, button {
+    margin-top: var(--input-margin);
+}
+
+button {
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darken(var(--button-color), 10%);
+}
