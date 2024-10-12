@@ -2,18 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="WDD 230 - Web Frontend Development by Jessen Forbush. This page serves as a user form."
+          name="description">
+    <meta content="Jessen Forbush" name="author">
     <meta content="Form" title="Form">
-    <meta property="og:title" content="Jessen Forbush - WDD 230 - Web Frontend Development">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jkaizenn.github.io/wdd230/form.html">
-    <meta property="og:image" content="https://jkaizenn.github.io/wdd230/images/jessenpic.jpg">
-    <meta property="og:description" content="A course assignment portal for WDD 230, contains a user form.">
+    <meta content="Jessen Forbush - WDD 230 - Web Frontend Development" property="og:title">
+    <meta content="website" property="og:type">
+    <meta content="https://jkaizenn.github.io/wdd230/form.html" property="og:url">
+    <meta content="https://jkaizenn.github.io/wdd230/images/jessenpic.jpg" property="og:image">
+    <meta content="A course assignment portal for WDD 230, contains a user form." property="og:description">
     <title>User Form</title>
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/larger.css" rel="stylesheet">
     <link href="styles/normalize.css" rel="stylesheet">
-    <link rel="icon" href="/images/favicon.ico">
+    <link href="/images/favicon.ico" rel="icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -30,22 +33,25 @@
     <a href="week01/chamber-site-plan.html">Site Plan</a>
     <a href="form.html">Form</a>
 </nav>
-    <main>
-    <form id="userForm" action="record.html" method="get">
+<main>
+    <form action="record.html" id="userForm" method="get">
         <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+        <input id="username" name="username" required type="text">
 
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters long and contain only alpha-numeric characters.">
+        <input id="password" name="password" pattern="[a-zA-Z0-9]{8,}" required title="Password must be at least 8 characters long and contain only alpha-numeric characters."
+               type="password">
 
         <label for="confirmPassword">Confirm Password:</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <input id="confirmPassword" name="confirmPassword" required type="password">
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address from the byui.edu domain.">
+        <input id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required title="Please enter a valid email address from the byui.edu domain."
+               type="email">
 
         <label for="rating">Page Rating:</label>
-        <input type="range" id="rating" name="rating" min="1" max="10" step="1" oninput="document.getElementById('ratingValue').textContent = this.value;">
+        <input id="rating" max="10" min="1" name="rating" oninput="document.getElementById('ratingValue').textContent = this.value;" step="1"
+               type="range">
         <span id="ratingValue">5</span>
 
         <button type="submit">Submit</button>
