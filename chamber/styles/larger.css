@@ -33,4 +33,18 @@
         max-width: 1200px;
         margin: 0 auto;
     }
+
+    .localPhotos {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for photos */
+        gap: 10px;
+    }
+
+    .localPhoto:hover {
+        transform: scale(1.05); /* Slight zoom effect on hover */
+        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .main-content {
+        margin-left: 20px; /* Add space between the sidebar and the main content */
+    }
 }
