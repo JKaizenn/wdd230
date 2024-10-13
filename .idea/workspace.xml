@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Updated form">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chamber/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chamber/scripts/dates.js" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/scripts/dates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chamber/scripts/menuToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/scripts/menuToggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chamber/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/styles/base.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,6 +39,9 @@
     &quot;accountId&quot;: &quot;e75d5ac8-4457-4d50-9a99-d1ed22b4d80a&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -52,9 +59,11 @@
     "JavaScript Debug.discover.html.executor": "Run",
     "JavaScript Debug.form.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.join.html.executor": "Run",
     "Node.js.menuToggle.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jessenforbush/WebstormProjects/wdd230/chamber",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +73,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chamber" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,7 +99,8 @@
       <workItem from="1728750461947" duration="4048000" />
       <workItem from="1728754843623" duration="237000" />
       <workItem from="1728755170608" duration="1229000" />
-      <workItem from="1728764486457" duration="920000" />
+      <workItem from="1728764486457" duration="3852000" />
+      <workItem from="1728852713862" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Discover Page">
       <option name="closed" value="true" />
@@ -175,7 +190,63 @@
       <option name="project" value="LOCAL" />
       <updated>1728765275066</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated form">
+      <option name="closed" value="true" />
+      <created>1728765408428</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728765408428</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated form">
+      <option name="closed" value="true" />
+      <created>1728765832597</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728765832597</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated form">
+      <option name="closed" value="true" />
+      <created>1728765999600</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728765999600</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated form">
+      <option name="closed" value="true" />
+      <created>1728766143258</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728766143258</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated form">
+      <option name="closed" value="true" />
+      <created>1728766364934</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728766364934</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated form">
+      <option name="closed" value="true" />
+      <created>1728766445219</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728766445219</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated form">
+      <option name="closed" value="true" />
+      <created>1728766584609</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728766584609</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

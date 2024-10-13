@@ -1,6 +1,7 @@
-const hamburger = document.getElementById("hamburger");
-const navMenu = document.getElementById("nav-menu");
+// Toggle the mobile navigation menu
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('nav-menu');
 
-hamburger.addEventListener("click", () => {
-  navMenu.classList.toggle("active"); // Toggle class to show or hide the menu
+hamburger.addEventListener('click', () => {
+  navMenu.classList.toggle('show');
 });
