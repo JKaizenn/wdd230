@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Updated form">
-      <change afterPath="$PROJECT_DIR$/chamber/join.html" afterDir="false" />
+    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Added join.html to index">
+      <change afterPath="$PROJECT_DIR$/week05/weather.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/scripts/dates.js" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/scripts/dates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/scripts/menuToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/scripts/menuToggle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/styles/base.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,26 +50,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.discover.html.executor": "Run",
-    "JavaScript Debug.form.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.join.html.executor": "Run",
-    "Node.js.menuToggle.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/jessenforbush/WebstormProjects/wdd230/chamber",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.discover.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.form.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.join.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.record.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.thankyou.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.menuToggle.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jessenforbush/WebstormProjects/wdd230/chamber&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chamber" />
@@ -100,7 +99,9 @@
       <workItem from="1728754843623" duration="237000" />
       <workItem from="1728755170608" duration="1229000" />
       <workItem from="1728764486457" duration="3852000" />
-      <workItem from="1728852713862" duration="304000" />
+      <workItem from="1728852713862" duration="3239000" />
+      <workItem from="1729094004075" duration="715000" />
+      <workItem from="1729451217235" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Discover Page">
       <option name="closed" value="true" />
@@ -246,7 +247,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728766584609</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added join form for chamber page">
+      <option name="closed" value="true" />
+      <created>1728853136292</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1728853136292</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added join.html to index">
+      <option name="closed" value="true" />
+      <created>1728853191952</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728853191952</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +276,8 @@
     <MESSAGE value="Added title H1" />
     <MESSAGE value="Added form" />
     <MESSAGE value="Updated form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated form" />
+    <MESSAGE value="Added join form for chamber page" />
+    <MESSAGE value="Added join.html to index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added join.html to index" />
   </component>
 </project>
