@@ -1,3 +1,9 @@
+:root {
+    --form-padding: 1rem;
+    --input-margin: 0.5rem;
+    --button-color: #4CAF50;
+}
+
 form {
     padding: var(--form-padding);
     display: flex;
@@ -12,6 +18,10 @@ label {
 
 input, button {
     margin-top: var(--input-margin);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
@@ -20,8 +30,20 @@ button {
     border: none;
     padding: 10px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
     background-color: rgba(76, 175, 80, 0.9);
+}
+
+#ratingValue {
+    font-weight: bold;
+}
+
+/* Responsive styling for mobile and larger screens */
+@media (min-width: 768px) {
+    form {
+        max-width: 600px;
+    }
 }
