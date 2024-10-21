@@ -11,12 +11,17 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
         document.getElementById('confirmPassword').value = '';
         document.getElementById('password').focus();
         event.preventDefault();
+        return;
     }
 
     // Email validation
     if (!emailPattern.test(emailField)) {
-        alert('Invalid email address. Please use a BYUI email.');
+        alert('Invalid email address. Please use a BYUI email ending with @byui.edu.');
         document.getElementById('email').focus();
         event.preventDefault();
+        return;
     }
+
+    // If all validation passes
+    alert('Form has been filled out successfully.');
 });
