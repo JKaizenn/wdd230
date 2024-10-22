@@ -3,7 +3,7 @@ let visitCount = localStorage.getItem("pageVisitCount");
 
 // Check if the visit count exists in localStorage
 if (visitCount === null) {
-  visitCount = 1; // First visit
+  visitCount = 1;
 } else {
   visitCount = parseInt(visitCount) + 1; // Increment the visit count
 }

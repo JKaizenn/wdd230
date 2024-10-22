@@ -239,3 +239,15 @@ footer.dark-mode {
     border: 0;
 }
 
+#weather {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 15px;
+    background-color: #333333;
+    color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: .5rem;
+
+}
