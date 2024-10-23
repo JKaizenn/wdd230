@@ -248,12 +248,15 @@ footer.dark-mode {
     border-radius: 15px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1rem;
-
 }
-
-weather.dark-mode {
+#weather.hover{
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+}
+#weather.dark-mode {
     background-color: #222222;
-    color: #ffffff;
+    color: white;
 }
 
 #visits {
@@ -266,3 +269,8 @@ weather.dark-mode {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1rem;
 }
+#visits.dark-mode {
+    background-color: #222222;
+    color: #ffffff;
+}
+
