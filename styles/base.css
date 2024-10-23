@@ -244,10 +244,25 @@ footer.dark-mode {
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 15px;
-    background-color: #333333;
-    color: #FFFFFF;
+    color: #333333;
     border-radius: 15px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: .5rem;
+    font-size: 1rem;
 
+}
+
+weather.dark-mode {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+#visits {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 15px;
+    color: #333333;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
 }
