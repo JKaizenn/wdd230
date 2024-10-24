@@ -25,12 +25,6 @@ function displayWeather(data) {
     // Create elements for weather information
     const title = document.createElement('h2');
     title.textContent = `Weather in ${data.name}`;
-    const weatherIcon = document.createElement('img');
-
-    weatherIcon.alt = 'Weather icon';
-    weatherIcon.style.width = '50px';
-    weatherIcon.style.height = '50px';
-    weatherIcon.style.display = 'block'; // Ensure it has its own line
 
     const temperature = document.createElement('p');
     temperature.textContent = `Temperature: ${data.main.temp}°C`;
