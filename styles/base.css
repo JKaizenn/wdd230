@@ -283,3 +283,8 @@ footer.dark-mode {
     max-width: 300px; /* Control the width */
     margin: 0 auto; /* Center align */
 }
+
+.weather-card.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
