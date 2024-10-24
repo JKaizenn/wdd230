@@ -261,8 +261,8 @@ footer.dark-mode {
 }
 
 #weather.dark-mode {
-    background-color: #222222;
-    color: white;
+    background-color: #333333;  /* Match other dark mode cards */
+    color: white;  /* White text in dark mode */
 }
 
 /* Visit Counter */
@@ -279,8 +279,8 @@ footer.dark-mode {
 }
 
 #visits.dark-mode {
-    background-color: #222222;
-    color: #ffffff;
+    background-color: #333333;  /* Match other dark mode cards */
+    color: white;  /* White text in dark mode */
 }
 
 /* Weather Card */
@@ -295,6 +295,6 @@ footer.dark-mode {
 }
 
 .weather-card.dark-mode {
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #333333;  /* Match other dark mode cards */
+    color: white;  /* White text in dark mode */
 }
