@@ -3,7 +3,7 @@
         {
             "week": "Week 1",
             "links": [
-                { "url": "week01/assignment.html", "title": "Assignment 1" }
+                { "url": "week01/chamber-site-plan.html", "title": "Assignment 1" }
             ]
         },
         {
@@ -11,6 +11,37 @@
             "links": [
                 { "url": "week02/design.html", "title": "Design Principles" }
             ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                { "url": "week03/lazyload.html", "title": "Lazy Loading" }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                { "url": "week04/color.html", "title": "Color" }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                { "url": "week05/weather.html", "title": "Weather" }
+            ]
+        },
+        {
+            "week": "Week 6",
+            "links": [
+                { "url": "week06/forms.html", "title": "Placeholder" }
+            ]
+        },
+        {
+            "week": "Week 7",
+            "links": [
+                { "url": "week07/audio.html", "title": "Placeholder" }
+            ]
         }
     ]
 }
+
