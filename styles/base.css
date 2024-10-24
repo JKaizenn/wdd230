@@ -125,6 +125,7 @@ footer {
     color: #FFF5E1;
 }
 
+/* Dark Mode Styles */
 body.dark-mode {
     background-color: #121212;
     color: #ffffff;
@@ -194,6 +195,7 @@ footer.dark-mode {
     }
 }
 
+/* Hero section styles */
 .hero-container {
     position: relative;
     width: 100%;
@@ -239,49 +241,57 @@ footer.dark-mode {
     border: 0;
 }
 
+/* Weather Styles */
 #weather {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 15px;
+    background-color: #FFF5E1;
     color: #333333;
     border-radius: 15px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1rem;
 }
-#weather.hover{
+
+#weather:hover {
     background-color: #0056b3;
     color: white;
     border-radius: 5px;
 }
+
 #weather.dark-mode {
     background-color: #222222;
     color: white;
 }
 
+/* Visit Counter */
 #visits {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 15px;
+    background-color: #FFF5E1;
     color: #333333;
     border-radius: 15px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1rem;
 }
+
 #visits.dark-mode {
     background-color: #222222;
     color: #ffffff;
 }
 
+/* Weather Card */
 .weather-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 15px;
     border-radius: 8px;
-    max-width: 300px; /* Control the width */
-    margin: 0 auto; /* Center align */
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .weather-card.dark-mode {
