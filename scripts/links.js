@@ -1,6 +1,5 @@
-baseurl = "https://jKaizenn.github.io/wdd230/"
-const linksURL = "https://Jkaizenn.github.io/wdd230/data/links.json";
-
+const baseURL = 'https://jkaizenn.github.io/wdd230/';
+const linksURL = baseURL + 'data/links.json';
 
 async function getLinks() {
     try {
@@ -9,24 +8,28 @@ async function getLinks() {
             throw new Error('Network response was not ok ' + response.statusText);
         }
         const data = await response.json();
-        console.log(data);
-        displayLinks(data);
+        console.log(data);  // Add this line to see if the data is being fetched
+        displayLinks(data.weeks);
     } catch (error) {
         console.error('There has been a problem with your fetch operation:', error);
     }
 }
 
-getLinks();
 
-function displayLinks(data) {
-    const linksContainer = document.getElementById('links');
+function displayLinks(weeks) {
+    const linksContainer = document.getElementById('displayLinks');
     let linksHTML = '';
-    data.forEach(link => {
-        linksHTML += `
-            <h2>${link.title}</h2>
-            <p>${link.description}</p>
-            <a href="${link.url}" target="_blank">${link.url}</a>
-        `;
+
+    weeks.forEach(week => {
+        linksHTML += `<h3>${week.week}</h3><ul>`;
+        week.links.forEach(link => {
+            linksHTML += `<li><a href="${link.url}">${link.title}</a></li>`;
+        });
+        linksHTML += '</ul>';
     });
+
     linksContainer.innerHTML = linksHTML;
 }
+
+// Call the function to get links data
+getLinks();

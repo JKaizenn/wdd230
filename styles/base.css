@@ -274,3 +274,13 @@ footer.dark-mode {
     color: #ffffff;
 }
 
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    max-width: 300px; /* Control the width */
+    margin: 0 auto; /* Center align */
+}

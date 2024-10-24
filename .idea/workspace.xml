@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Fixed styling with weather">
-      <change afterPath="$PROJECT_DIR$/data/links.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/links.js" afterDir="false" />
+    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Added links.json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/links.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/links.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/links.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/links.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/weatherAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/weatherAPI.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/base.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +113,8 @@
       <workItem from="1729538948053" duration="3431000" />
       <workItem from="1729699024114" duration="920000" />
       <workItem from="1729700872568" duration="1125000" />
+      <workItem from="1729702276965" duration="20000" />
+      <workItem from="1729795014894" duration="1134000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Discover Page">
       <option name="closed" value="true" />
@@ -329,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729699497610</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added links.json">
+      <option name="closed" value="true" />
+      <created>1729702290647</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1729702290647</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +370,7 @@
     <MESSAGE value="Fixed Form" />
     <MESSAGE value="Added Weather API" />
     <MESSAGE value="Fixed styling with weather" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed styling with weather" />
+    <MESSAGE value="Added links.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added links.json" />
   </component>
 </project>

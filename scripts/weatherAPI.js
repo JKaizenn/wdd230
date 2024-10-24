@@ -1,5 +1,3 @@
-// scripts/weatherAPI.js
-
 const apiKey = '517ae85d73a4d012f1c177c2304e4d13';
 const city = 'Rexburg';
 
@@ -20,14 +18,40 @@ async function getWeather() {
 
 function displayWeather(data) {
     const weatherContainer = document.getElementById('weather');
-    const weatherHTML = `
-        <h2>Weather in ${data.name}</h2>
-        <p>Temperature: ${data.main.temp}°C</p>
-        <p>Weather: ${data.weather[0].description}</p>
-        <p>Humidity: ${data.main.humidity}%</p>
-        <p>Wind Speed: ${data.wind.speed} m/s</p>
-    `;
-    weatherContainer.innerHTML = weatherHTML;
+
+    // Clear previous content
+    weatherContainer.innerHTML = '';
+
+    // Create elements for weather information
+    const title = document.createElement('h2');
+    title.textContent = `Weather in ${data.name}`;
+
+    const temperature = document.createElement('p');
+    temperature.textContent = `Temperature: ${data.main.temp}°C`;
+
+    const description = document.createElement('p');
+    description.textContent = `Weather: ${data.weather[0].description}`;
+
+    const weatherIcon = document.createElement('img');
+    weatherIcon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
+    weatherIcon.alt = 'Weather icon';
+    weatherIcon.style.width = '50px';
+    weatherIcon.style.height = '50px';
+    weatherIcon.style.display = 'block'; // Ensure it has its own line
+
+    const humidity = document.createElement('p');
+    humidity.textContent = `Humidity: ${data.main.humidity}%`;
+
+    const windSpeed = document.createElement('p');
+    windSpeed.textContent = `Wind Speed: ${data.wind.speed} m/s`;
+
+    // Append everything in order
+    weatherContainer.appendChild(title);
+    weatherContainer.appendChild(temperature);
+    weatherContainer.appendChild(description);
+    weatherContainer.appendChild(weatherIcon);  // Icon placed between weather description and other details
+    weatherContainer.appendChild(humidity);
+    weatherContainer.appendChild(windSpeed);
 }
 
 // Call the function to get weather data
