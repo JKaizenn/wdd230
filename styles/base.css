@@ -254,12 +254,6 @@ footer.dark-mode {
     font-size: 1rem;
 }
 
-#weather:hover {
-    background-color: #0056b3;
-    color: white;
-    border-radius: 5px;
-}
-
 #weather.dark-mode {
     background-color: #333333;  /* Match other dark mode cards */
     color: white;  /* White text in dark mode */
@@ -283,18 +277,18 @@ footer.dark-mode {
     color: white;  /* White text in dark mode */
 }
 
-/* Weather Card */
-.weather-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
-    border-radius: 8px;
-    max-width: 300px;
-    margin: 0 auto;
+/* Card Dark Mode */
+.cards-container .card.dark-mode {
+    background-color: #333333;
+    color: white;  /* White text in dark mode */
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
 }
 
-.weather-card.dark-mode {
-    background-color: #333333;  /* Match other dark mode cards */
-    color: white;  /* White text in dark mode */
+/* Ensure .card dark mode applies to all cards */
+.card.dark-mode {
+    background-color: #333333;
+    color: white;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
 }
