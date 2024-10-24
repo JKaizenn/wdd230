@@ -1,19 +1,19 @@
 :root {
-    --form-padding: 20px;
-    --input-margin: 10px 0;
+    --form-padding: 1.25rem; /* 20px */
+    --input-margin: 0.625rem 0; /* 10px */
     --button-color: #4CAF50;
-    --border-radius: 5px;
-    --header-padding: 20px;
-    --main-margin: 30px 15px;
-    --main-padding: 20px;
-    --card-padding: 20px;
-    --footer-padding: 20px;
-    --profile-width: 180px;
-    --profile-border: 2px solid #FFF5E1;
-    --hamburger-font-size: 35px;
-    --map-container-height: 450px;
-    --map-container-margin: 20px auto;
-    --overlay-padding: 5px 10px;
+    --border-radius: 0.3125rem; /* 5px */
+    --header-padding: 1.25rem; /* 20px */
+    --main-margin: 1.875rem 0.9375rem; /* 30px 15px */
+    --main-padding: 1.25rem; /* 20px */
+    --card-padding: 1.25rem; /* 20px */
+    --footer-padding: 1.25rem; /* 20px */
+    --profile-width: 11.25rem; /* 180px */
+    --profile-border: 0.125rem solid #FFF5E1; /* 2px */
+    --hamburger-font-size: 2.1875rem; /* 35px */
+    --map-container-height: 28.125rem; /* 450px */
+    --map-container-margin: 1.25rem auto; /* 20px auto */
+    --overlay-padding: 0.3125rem 0.625rem; /* 5px 10px */
     --overlay-font-size: 1.5rem;
 }
 
@@ -37,20 +37,20 @@ header {
     border-radius: 50%;
     border: var(--profile-border);
     display: block;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 0.625rem auto; /* 10px */
 }
 
 header span {
     display: block;
-    margin-top: 15px;
+    margin-top: 0.9375rem; /* 15px */
     font-size: 1.4em;
     font-weight: bold;
 }
 
 #darkModeToggle {
-    padding: 10px 20px;
-    margin-top: 10px;
-    font-size: 1em;
+    padding: 0.625rem 1.25rem; /* 10px 20px */
+    margin-top: 0.625rem; /* 10px */
+    font-size: 1rem;
     border: none;
     background-color: #ffffff;
     color: #333333;
@@ -63,15 +63,15 @@ header span {
     flex-direction: column;
     align-items: center;
     background-color: #FFF5E1;
-    padding: 10px;
+    padding: 0.625rem; /* 10px */
 }
 
 .topnav a {
     color: #000000;
     text-decoration: none;
     font-size: 1.2em;
-    padding: 15px 25px;
-    margin: 15px 0;
+    padding: 0.9375rem 1.5625rem; /* 15px 25px */
+    margin: 0.9375rem 0; /* 15px */
     border-radius: var(--border-radius);
 }
 
@@ -82,7 +82,7 @@ header span {
 .hamburger {
     display: none;
     font-size: var(--hamburger-font-size);
-    padding: 10px;
+    padding: 0.625rem; /* 10px */
     background: none;
     border: none;
     cursor: pointer;
@@ -92,30 +92,30 @@ header span {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 1.25rem; /* 20px */
     margin: var(--main-margin);
     padding: var(--main-padding);
     background-color: #333333;
     color: #FFFFFF;
-    border-radius: 15px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.9375rem; /* 15px */
+    box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* 0px 4px 6px */
 }
 
 .cards-container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 15px;
+    gap: 1.25rem; /* 20px */
+    padding: 0.9375rem; /* 15px */
 }
 
 .cards-container .card {
     background-color: #FFF5E1;
     color: #333333;
     padding: var(--card-padding);
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    border: 1px solid transparent;
+    border-radius: 0.625rem; /* 10px */
+    box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.3); /* 0px 4px 6px */
+    margin-bottom: 1.25rem; /* 20px */
+    border: 0.0625rem solid transparent; /* 1px */
 }
 
 footer {
@@ -168,12 +168,12 @@ footer.dark-mode {
 
 .card.dark-mode {
     background-color: #333333;
-    border: 1px solid #ffffff;
-    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    border: 0.0625rem solid #ffffff; /* 1px */
+    box-shadow: 0rem 0.25rem 0.625rem rgba(255, 255, 255, 0.2); /* 0px 4px 10px */
     color: #ffffff;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) { /* 600px */
     .hamburger {
         display: block;
     }
@@ -199,7 +199,7 @@ footer.dark-mode {
 .hero-container {
     position: relative;
     width: 100%;
-    max-width: 960px;
+    max-width: 60rem; /* 960px */
     margin: 0 auto;
 }
 
@@ -217,8 +217,8 @@ footer.dark-mode {
 
 .overlay {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 0.625rem; /* 10px */
+    left: 0.625rem; /* 10px */
     color: white;
     font-size: var(--overlay-font-size);
     background: rgba(0, 0, 0, 0.5);
@@ -228,7 +228,7 @@ footer.dark-mode {
 
 .map-container {
     width: 100%;
-    max-width: 600px;
+    max-width: 37.5rem; /* 600px */
     height: var(--map-container-height);
     margin: var(--map-container-margin);
     text-align: center;
@@ -245,50 +245,50 @@ footer.dark-mode {
 #weather {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 15px;
+    gap: 1.25rem; /* 20px */
+    padding: 0.9375rem; /* 15px */
     background-color: #FFF5E1;
     color: #333333;
-    border-radius: 15px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.9375rem; /* 15px */
+    box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* 0px 4px 6px */
     font-size: 1rem;
 }
 
 #weather.dark-mode {
-    background-color: #333333;  /* Match other dark mode cards */
-    color: white;  /* White text in dark mode */
+    background-color: #333333;
+    color: white;
 }
 
 /* Visit Counter */
 #visits {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 15px;
+    gap: 1.25rem; /* 20px */
+    padding: 1.5rem;
     background-color: #FFF5E1;
     color: #333333;
-    border-radius: 15px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.9375rem; /* 15px */
+    box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* 0px 4px 6px */
     font-size: 1rem;
 }
 
 #visits.dark-mode {
-    background-color: #333333;  /* Match other dark mode cards */
-    color: white;  /* White text in dark mode */
+    background-color: #333333;
+    color: white;
 }
 
 /* Card Dark Mode */
 .cards-container .card.dark-mode {
     background-color: #333333;
-    color: white;  /* White text in dark mode */
-    border: 1px solid #ffffff;
-    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 0.0625rem solid #ffffff; /* 1px */
+    box-shadow: 0rem 0.25rem 0.625rem rgba(255, 255, 255, 0.2); /* 0px 4px 10px */
 }
 
 /* Ensure .card dark mode applies to all cards */
 .card.dark-mode {
     background-color: #333333;
     color: white;
-    border: 1px solid #ffffff;
-    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    border: 0.0625rem solid #ffffff; /* 1px */
+    box-shadow: 0rem 0.25rem 0.625rem rgba(255, 255, 255, 0.2); /* 0px 4px 10px */
 }
