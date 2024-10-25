@@ -98,7 +98,7 @@ main {
     background-color: #333333;
     color: #FFFFFF;
     border-radius: 0.9375rem; /* 15px */
-    box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* 0px 4px 6px */
+    box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
 }
 
 .cards-container {
@@ -241,54 +241,21 @@ footer.dark-mode {
     border: 0;
 }
 
-/* Weather Styles */
-#weather {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.25rem; /* 20px */
-    padding: 0.9375rem; /* 15px */
-    background-color: #FFF5E1;
-    color: #333333;
-    border-radius: 0.9375rem; /* 15px */
-    box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* 0px 4px 6px */
-    font-size: 1rem;
-}
-
-#weather.dark-mode {
-    background-color: #333333;
-    color: white;
-}
-
-/* Visit Counter */
 #visits {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.25rem; /* 20px */
-    padding: 1.5rem;
-    background-color: #FFF5E1;
-    color: #333333;
-    border-radius: 0.9375rem; /* 15px */
-    box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* 0px 4px 6px */
-    font-size: 1rem;
+    padding: 2rem;
+}
+.weather-card {
+    border: .25rem solid;
+    border-radius: 0.3125rem;
+    box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem; /* Add margin here to space it from the visits card */
 }
 
-#visits.dark-mode {
-    background-color: #333333;
-    color: white;
-}
 
-/* Card Dark Mode */
-.cards-container .card.dark-mode {
-    background-color: #333333;
-    color: white;
-    border: 0.0625rem solid #ffffff; /* 1px */
-    box-shadow: 0rem 0.25rem 0.625rem rgba(255, 255, 255, 0.2); /* 0px 4px 10px */
-}
-
-/* Ensure .card dark mode applies to all cards */
-.card.dark-mode {
-    background-color: #333333;
-    color: white;
-    border: 0.0625rem solid #ffffff; /* 1px */
-    box-shadow: 0rem 0.25rem 0.625rem rgba(255, 255, 255, 0.2); /* 0px 4px 10px */
+#visits {
+    padding: 1rem;
+    border: .25rem solid;
+    border-radius: 0.3125rem;
+    box-shadow: 0rem 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem; /* Add margin here to space it from the weather card */
 }

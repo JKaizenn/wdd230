@@ -32,13 +32,14 @@ function displayWeather(data) {
     const description = document.createElement('p');
     description.textContent = `Weather: ${data.weather[0].description}`;
 
-    // Add weather icon
+    // Add weather icon with higher resolution (@2x)
     const weatherIcon = document.createElement('img');
-    weatherIcon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
+    weatherIcon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     weatherIcon.alt = 'Weather icon';
-    weatherIcon.style.width = '50px'; // Set size for the icon
-    weatherIcon.style.height = '50px';
+    weatherIcon.style.width = '80px'; // Set size for clarity
+    weatherIcon.style.height = '80px';
     weatherIcon.style.display = 'block'; // Ensure the icon is on its own line
+    weatherIcon.style.margin = '10px auto'; // Center the icon with spacing
 
     const humidity = document.createElement('p');
     humidity.textContent = `Humidity: ${data.main.humidity}%`;
@@ -48,9 +49,9 @@ function displayWeather(data) {
 
     // Append everything in order
     weatherContainer.appendChild(title);
+    weatherContainer.appendChild(weatherIcon);  // Icon added here in proper order
     weatherContainer.appendChild(temperature);
     weatherContainer.appendChild(description);
-    weatherContainer.appendChild(weatherIcon);  // Icon added here in proper order
     weatherContainer.appendChild(humidity);
     weatherContainer.appendChild(windSpeed);
 }

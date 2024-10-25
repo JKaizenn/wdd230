@@ -22,74 +22,76 @@
 </head>
 
 <body>
-    <header>
-        <img id="profile" src="images/jessenpic.jpg" loading="lazy" alt="Your profile photo">
-        <span>Jessen Forbush</span>
-        <button id="darkModeToggle">Dark Mode</button>
-    </header>
+<header>
+    <img id="profile" src="images/jessenpic.jpg" loading="lazy" alt="Your profile photo">
+    <span>Jessen Forbush</span>
+    <button id="darkModeToggle">Dark Mode</button>
+</header>
 
-    <nav class="topnav">
-        <button class="hamburger" id="hamburger">&#9776;</button>
-        <a href="#">Home</a>
-        <a href="chamber/index.html">Chamber</a>
-        <a href="week01/chamber-site-plan.html">Site Plan</a>
-        <a href="form.html">Form</a>
-    </nav>
+<nav class="topnav">
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    <a href="#">Home</a>
+    <a href="chamber/index.html">Chamber</a>
+    <a href="week01/chamber-site-plan.html">Site Plan</a>
+    <a href="form.html">Form</a>
+</nav>
 
-    <main>
-        <div class="hero-container">
-            <picture>
-                <source srcset="images/TempleLandscape.webp" media="(min-width: 961px)">
-                <source srcset="images/TemplePortrait.webp" media="(max-width: 960px)">
-                <img src="images/TempleLandscape.webp" alt="Favorite Latter-day temple" loading="lazy">
-            </picture>
-            <div class="overlay">Provo City Center Temple</div>
+<main>
+    <div class="hero-container">
+        <picture>
+            <source srcset="images/TempleLandscape.webp" media="(min-width: 961px)">
+            <source srcset="images/TemplePortrait.webp" media="(max-width: 960px)">
+            <img src="images/TempleLandscape.webp" alt="Favorite Latter-day temple" loading="lazy">
+        </picture>
+        <div class="overlay">Provo City Center Temple</div>
+    </div>
+
+    <div class="card-wrapper">
+        <div class="card-title">
+            <h1>WDD 230: Web Frontend Development</h1>
         </div>
 
-        <div class="card-wrapper">
-            <div class="card-title">
-                <h1>WDD 230: Web Frontend Development</h1>
-            </div>
+        <div class="cards-container">
+            <section class="card">
+                <h2>Learning Activities</h2>
+                <div id="links">
+                    <p>Learning Activities<span id="displayLinks"></span></p>
+                </div>
+            </section>
 
-            <div class="cards-container">
-                <section class="card">
-                    <h2>Learning Activities</h2>
-                    <div id="links">
-                        <p>Learning Activities<span id="displayLinks"></span></p>
-                    </div>
-                </section>
-
-                <section class="card">
-                    <h2>Information:</h2>
-                    <div id="weather" class="weather-card">
-                        <h2>Weather in Rexburg</h2>
-                        <p id="temp"></p>
-                        <p id="desc"></p>
-                        <img id="icon" src="" alt="Weather icon" />
-                        <p id="humidity"></p>
-                        <p id="wind"></p>
-                    </div>
-                    <div id="visits"> <p>Number of Visits: <span id="visitCounter"></span></p></div>
-                </section>
-            </div>
+            <section class="card">
+                <h2>Information:</h2>
+                <div id="weather" class="weather-card">
+                    <h2>Weather in Rexburg</h2>
+                    <img id="weather-icon" src="" alt="Weather icon" />
+                    <p id="temp"></p>
+                    <p id="desc"></p>
+                    <p id="humidity"></p>
+                    <p id="wind"></p>
+                </div>
+                <div id="visits" class="visits-card">
+                    <p>Number of Visits: <span id="visitCounter"></span></p>
+                </div>
+            </section>
         </div>
+    </div>
 
-        <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.931768915118!2d-111.6618918238953!3d40.232819266812136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9753f01c3b83%3A0x5d2cd1f074758bb7!2sProvo%20City%20Center%20Temple!5e0!3m2!1sen!2sus!4v1728062889779!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-    </main>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.931768915118!2d-111.6618918238953!3d40.232819266812136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9753f01c3b83%3A0x5d2cd1f074758bb7!2sProvo%20City%20Center%20Temple!5e0!3m2!1sen!2sus!4v1728062889779!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</main>
 
-    <footer>
-        <p>&copy; <span id="currentYear"></span> Jessen Forbush, United States</p>
-        <p id="lastModified"></p>
-    </footer>
+<footer>
+    <p>&copy; <span id="currentYear"></span> Jessen Forbush, United States</p>
+    <p id="lastModified"></p>
+</footer>
 
-    <script src="scripts/getDates.js"></script>
-    <script src="scripts/menuToggle.js"></script>
-    <script src="scripts/darkModeToggle.js"></script>
-    <script src="scripts/visitCounter.js"></script>
-    <script src="scripts/weatherAPI.js"></script>
-    <script src="scripts/links.js"></script>
+<script src="scripts/getDates.js"></script>
+<script src="scripts/menuToggle.js"></script>
+<script src="scripts/darkModeToggle.js"></script>
+<script src="scripts/visitCounter.js"></script>
+<script src="scripts/weatherAPI.js"></script>
+<script src="scripts/links.js"></script>
 </body>
 
 </html>
