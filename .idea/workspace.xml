@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Updated Homepage with Improvements" />
+    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Fixed src attribute in weather icon">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chamber/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/styles/base.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +30,12 @@
     &quot;assignee&quot;: &quot;JKaizenn&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JKaizenn/wdd230.git",
-    "accountId": "e593b550-37c0-4456-be52-39467af0c68e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JKaizenn/wdd230.git&quot;,
+    &quot;accountId&quot;: &quot;e593b550-37c0-4456-be52-39467af0c68e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
@@ -47,31 +50,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.directory.html.executor": "Run",
-    "JavaScript Debug.discover.html.executor": "Debug",
-    "JavaScript Debug.form.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.join.html.executor": "Run",
-    "JavaScript Debug.record.html.executor": "Run",
-    "JavaScript Debug.thankyou.html.executor": "Run",
-    "Node.js.menuToggle.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore_missing_gitignore": "true",
-    "last_opened_file_path": "/Users/jessenforbush/WebstormProjects/wdd230/chamber",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.directory.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.discover.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.form.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.join.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.record.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.thankyou.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.menuToggle.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jessenforbush/WebstormProjects/wdd230/chamber&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chamber" />
@@ -118,6 +121,7 @@
       <workItem from="1730071437049" duration="5074000" />
       <workItem from="1730165360968" duration="2400000" />
       <workItem from="1730223479391" duration="3716000" />
+      <workItem from="1730234083508" duration="824000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Discover Page">
       <option name="closed" value="true" />
@@ -439,7 +443,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730233654666</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Fixed src attribute in weather icon">
+      <option name="closed" value="true" />
+      <created>1730234129301</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1730234129301</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Fixed src attribute in weather icon">
+      <option name="closed" value="true" />
+      <created>1730234307190</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1730234307190</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,6 +497,7 @@
     <MESSAGE value="Weather Complete" />
     <MESSAGE value="Fixed Visit Counter" />
     <MESSAGE value="Updated Homepage with Improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Homepage with Improvements" />
+    <MESSAGE value="Fixed src attribute in weather icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed src attribute in weather icon" />
   </component>
 </project>

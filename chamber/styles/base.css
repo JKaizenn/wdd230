@@ -53,7 +53,7 @@ header nav {
 }
 
 .nav-menu a:hover {
-    background-color: #0056b3;
+    background-color: #228B22; /* Changed to dark green */
     color: white;
     border-radius: 5px;
 }
@@ -115,7 +115,7 @@ h1 {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #228B22; /* Dark green */
 }
 
 footer {
@@ -133,7 +133,6 @@ footer p {
     margin: 8px 0;
 }
 
-/* Container for main content and sidebar */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -167,7 +166,6 @@ footer p {
     margin-left: 20px;
 }
 
-/* Local Photos grid */
 .localPhotos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -215,11 +213,6 @@ footer p {
     }
 }
 
-/* Calendar section */
-.calendar-section {
-    margin-bottom: 20px;
-}
-
 #calendar table {
     width: 100%;
     border-collapse: collapse;
@@ -242,7 +235,6 @@ footer p {
     background-color: #f4f4f4;
 }
 
-/* Lightbox for images */
 .lightbox {
     display: none;
     position: fixed;
@@ -280,7 +272,6 @@ footer p {
     color: #bbb;
 }
 
-/* Form Styling */
 form {
     display: flex;
     flex-direction: column;
@@ -346,7 +337,6 @@ textarea {
     }
 }
 
-/* Sidebar benefits list */
 aside ul {
     list-style-type: disc;
     padding-left: 1rem;
@@ -357,7 +347,6 @@ aside li {
     font-size: 1rem;
 }
 
-/* Hamburger Menu for Mobile */
 .nav-menu {
     display: none;
 }
@@ -373,7 +362,6 @@ aside li {
     }
 }
 
-/* Grid and List Views */
 .grid-view .card {
     display: inline-block;
     width: 30%;
@@ -398,22 +386,22 @@ aside li {
 }
 
 .banner {
-    background-color: #f4e04d;
-    color: #333;
+    background-color: #004d40;
+    color: #fafafa;
     text-align: center;
     padding: 10px;
     position: relative;
     display: flex;
-    justify-content: center; /* Center the banner text */
+    justify-content: center;
     align-items: center;
 }
 
 #closeBanner {
     background: transparent;
     border: none;
-    font-size: 1.2em; /* Reduce the size for better visibility on mobile */
+    font-size: 1.2em;
     cursor: pointer;
-    color: #d9534f;
+    color: #ffffff;
     position: absolute;
     right: 15px;
     top: 50%;
@@ -423,26 +411,24 @@ aside li {
 
 #closeBanner:hover {
     color: #c9302c;
-    transform: translateY(-50%) scale(1.1); /* Slight zoom on hover */
+    transform: translateY(-50%) scale(1.1);
 }
 
-/* Mobile view adjustments */
 @media (max-width: 600px) {
     #closeBanner {
-        font-size: 1rem; /* Make it smaller for mobile */
-        right: 10px; /* Adjust position */
-        top: 50%; /* Align vertically */
+        font-size: 1rem;
+        right: 10px;
+        top: 50%;
         transform: translateY(-50%);
         padding-top:1.5rem;
     }
 
     .banner {
-        padding: 15px; /* Add more padding to the banner */
-        font-size: 1em; /* Ensure the text is readable */
+        padding: 15px;
+        font-size: 1em;
     }
 }
 
-/* --- NEW: Spotlights Section --- */
 #spotlightContainer {
     display: flex;
     justify-content: space-around;
@@ -451,7 +437,7 @@ aside li {
 }
 
 .spotlight {
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
@@ -479,11 +465,10 @@ aside li {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    color: #007BFF;
+    color: #0000FF;
     font-weight: bold;
 }
 
-/* Mobile responsiveness for spotlights */
 @media (max-width: 768px) {
     .spotlight {
         width: 100%;
