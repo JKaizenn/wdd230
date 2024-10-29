@@ -61,7 +61,10 @@
             <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5" oninput="this.nextElementSibling.value = this.value">
             <output>5</output>
 
-            <input type="submit" value="Submit">
+            <!-- Hidden Field for Submission Date -->
+            <input type="hidden" id="submissionDate" name="submissionDate">
+
+            <input type="submit" value="Join Now">
         </form>
 
         <aside>
@@ -85,26 +88,7 @@
 
 <script src="scripts/dates.js"></script>
 <script src="scripts/menuToggle.js"></script>
-<script>
-    // Set the timestamp when the form is loaded
-    document.getElementById('timestamp').value = new Date().toISOString();
-
-    // Password matching validation
-    const form = document.querySelector('form');
-    const password = document.getElementById('password');
-    const confirm_password = document.getElementById('confirm_password');
-
-    form.addEventListener('submit', function (e) {
-        if (password.value !== confirm_password.value) {
-            e.preventDefault();
-            alert('Passwords do not match. Please try again.');
-            password.value = '';
-            confirm_password.value = '';
-            password.focus();
-        }
-    });
-</script>
+<script src="scripts/submissionDate.js"></script>
 
 </body>
 </html>
-

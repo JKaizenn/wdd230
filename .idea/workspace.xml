@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Updated discover.html" />
+    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Complete!">
+      <change afterPath="$PROJECT_DIR$/chamber/scripts/submissionDate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chamber/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/join.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +122,7 @@
       <workItem from="1730071437049" duration="5074000" />
       <workItem from="1730165360968" duration="2400000" />
       <workItem from="1730223479391" duration="3716000" />
-      <workItem from="1730234083508" duration="1826000" />
+      <workItem from="1730234083508" duration="2581000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Discover Page">
       <option name="closed" value="true" />
@@ -488,7 +492,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730235870049</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Updated join.html">
+      <option name="closed" value="true" />
+      <created>1730235990782</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1730235990782</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Complete!">
+      <option name="closed" value="true" />
+      <created>1730236403635</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1730236403635</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed Discover Page" />
     <MESSAGE value="Fixed Meta Element Errors" />
     <MESSAGE value="Fixed Meta Elements" />
     <MESSAGE value="Added title H1" />
@@ -530,6 +549,8 @@
     <MESSAGE value="Added h1 to directory" />
     <MESSAGE value="Updated directory.html" />
     <MESSAGE value="Updated discover.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated discover.html" />
+    <MESSAGE value="Updated join.html" />
+    <MESSAGE value="Complete!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete!" />
   </component>
 </project>
