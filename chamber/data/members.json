@@ -1,6 +1,6 @@
 [
   {
-    "name": "ABC Corporation",
+    "name": "ABC Corp.",
     "address": "123 Main St, Rexburg, ID",
     "phone": "555-1234",
     "website": "http://www.abccorp.com",
@@ -27,7 +27,7 @@
     "additionalInfo": "Fresh pastries and bread made daily"
   },
   {
-    "name": "Evergreen Landscaping",
+    "name": "Evergreen Landsc.",
     "address": "101 Pine St, Rexburg, ID",
     "phone": "555-1010",
     "website": "http://www.evergreenlandscaping.com",
