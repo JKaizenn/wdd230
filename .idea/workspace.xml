@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Fixed src attribute in weather icon">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/styles/base.css" afterDir="false" />
-    </list>
+    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Fixed src attribute in weather icon" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +118,7 @@
       <workItem from="1730071437049" duration="5074000" />
       <workItem from="1730165360968" duration="2400000" />
       <workItem from="1730223479391" duration="3716000" />
-      <workItem from="1730234083508" duration="824000" />
+      <workItem from="1730234083508" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Discover Page">
       <option name="closed" value="true" />
@@ -459,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730234307190</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Fixed src attribute in weather icon">
+      <option name="closed" value="true" />
+      <created>1730235219428</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1730235219428</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
