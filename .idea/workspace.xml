@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Fixed src attribute in weather icon" />
+    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Added h1 to directory">
+      <change beforePath="$PROJECT_DIR$/chamber/directory.html" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/directory.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +120,7 @@
       <workItem from="1730071437049" duration="5074000" />
       <workItem from="1730165360968" duration="2400000" />
       <workItem from="1730223479391" duration="3716000" />
-      <workItem from="1730234083508" duration="1130000" />
+      <workItem from="1730234083508" duration="1514000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Discover Page">
       <option name="closed" value="true" />
@@ -464,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730235219428</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Added h1 to directory">
+      <option name="closed" value="true" />
+      <created>1730235434369</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1730235434369</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,6 +513,7 @@
     <MESSAGE value="Fixed Visit Counter" />
     <MESSAGE value="Updated Homepage with Improvements" />
     <MESSAGE value="Fixed src attribute in weather icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed src attribute in weather icon" />
+    <MESSAGE value="Added h1 to directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added h1 to directory" />
   </component>
 </project>
