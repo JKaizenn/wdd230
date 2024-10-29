@@ -4,70 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 230 - Web Frontend Development by Jessen Forbush. This page serves as a course assignment portal for learning activities, projects, and web development resources.">
-    <meta name="author" content="Jessen Forbush">
-    <title>Jessen Forbush - WDD 230 - Web Frontend Development</title>
-
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Jessen Forbush - WDD 230 - Web Frontend Development">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jkaizenn.github.io/wdd230/">
-    <meta property="og:image" content="https://jkaizenn.github.io/wdd230/images/jessenpic.jpg">
-    <meta property="og:description" content="A course assignment portal for WDD 230, covering web frontend development activities and resources.">
-
-    <!-- Fonts and Styles -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- Stylesheets -->
-    <link href="../styles/base.css?v=1.0" rel="stylesheet">
-    <link href="../styles/larger.css?v=1.0" rel="stylesheet">
-    <link href="../styles/normalize.css?v=1.0" rel="stylesheet">
+    <meta name="description"
+        content="Welcome to the Chamber of Commerce, your local resource for businesses and events.">
+    <meta name="author" content="Your Name">
+    <title>Chamber of Commerce</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="../images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Social media meta tags -->
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jkaizenn.github.io/wdd230/chamber/images/rexburg.webp">
+    <meta property="og:url" content="https://jkaizenn.github.io/wdd230/chamber/">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 
 <body>
+
 <header>
-    <img id="profile" src="../images/jessenpic.jpg" loading="lazy" alt="Profile photo of Jessen Forbush">
-    <span>Jessen Forbush</span>
-    <button id="darkModeToggle">Dark Mode</button>
+    <nav>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+        </ul>
+    </nav>
 </header>
 
-<nav class="topnav">
-    <button class="hamburger" id="hamburger">&#9776;</button>
-    <a href="../index.html">Home</a>
-    <a href="index.html">Chamber</a>
-    <a href="../week01/chamber-site-plan.html">Site Plan</a>
-    <a href="../form.html">Form</a>
-</nav>
-
 <main>
-    <div class="toggle-container">
+    <div>
         <button id="grid-view">Grid View</button>
         <button id="list-view">List View</button>
     </div>
-
-    <div id="members-container" class="grid-view">
-        <!-- Member cards will be injected here by JavaScript -->
-    </div>
+    <section id="members-container" class="grid-view">
+    </section>
 </main>
 
+<!-- Footer -->
 <footer>
-    <p>&copy; <span id="currentYear"></span> Jessen Forbush, United States</p>
-    <p id="lastModified"></p>
+    <p>&copy; 2024 Jessen Forbush, Chamber of Commerce</p>
+    <p>Contact: RexburgChamber@chamber.com #(000) 000-0000</p>
+    <p>WDD 230 Project | Last Updated: <span id="lastModified"></span></p>
 </footer>
 
-<!-- Scripts -->
-<script src="../scripts/getDates.js"></script>
-<script src="../scripts/menuToggle.js"></script>
-<script src="../scripts/darkModeToggle.js"></script>
-<script src="../scripts/visitCounter.js"></script>
-<script src="../scripts/weatherAPI.js"></script>
-<script src="../scripts/links.js"></script>
-<script src="../scripts/directory.js"></script> <!-- Corrected script link -->
+<script src="scripts/dates.js"></script>
+<script src="scripts/menuToggle.js"></script>
+<script src="scripts/directory.js"></script> 
 </body>
 
 </html>

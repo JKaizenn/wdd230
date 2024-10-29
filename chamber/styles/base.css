@@ -416,19 +416,25 @@ aside li {
     }
 }
 
-/* Grid View */
 .grid-view .card {
     display: inline-block;
     width: 30%;
     margin: 1%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
+    text-align: center;
 }
 
-/* List View */
 .list-view .list-item {
     display: block;
-    margin: 10px 0;
+    width: 100%;
+    margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
+}
+
+.member-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }

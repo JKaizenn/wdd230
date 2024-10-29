@@ -31,9 +31,8 @@
         <ul class="nav-menu" id="nav-menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="join.html">Join</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Members</a></li>
             <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
         </ul>
     </nav>
 </header>
@@ -64,8 +63,13 @@
         <!-- Weather Section -->
         <section class="weather">
             <h2>Local Weather</h2>
-            <div class="weather-card">
-                <p>Weather information coming soon...</p>
+            <div id="weather" class="weather-card">
+                <h2>Weather in Rexburg</h2>
+                <img id="weather-icon" src="" alt="Weather icon" />
+                <p id="temp"></p>
+                <p id="desc"></p>
+                <p id="humidity"></p>
+                <p id="wind"></p>
             </div>
         </section>
 
@@ -92,6 +96,7 @@
 
     <script src="scripts/dates.js"></script>
     <script src="scripts/menuToggle.js"></script>
+    <script src="scripts/weatherAPI.js"></script>
 </body>
 
 </html>

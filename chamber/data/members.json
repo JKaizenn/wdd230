@@ -1,64 +1,64 @@
 [
   {
     "name": "ABC Corporation",
-    "address": "123 Main St, Springfield, IL",
+    "address": "123 Main St, Rexburg, ID",
     "phone": "555-1234",
     "website": "http://www.abccorp.com",
-    "icon": "abc-logo.png",
+    "image": "placeholder.png",
     "membershipLevel": "Gold",
     "additionalInfo": "Providing business solutions since 1985"
   },
   {
     "name": "XYZ Services",
-    "address": "456 Elm St, Springfield, IL",
+    "address": "456 Elm St, Rexburg, ID",
     "phone": "555-5678",
     "website": "http://www.xyzservices.com",
-    "icon": "xyz-logo.png",
+    "image": "placeholder.png",
     "membershipLevel": "Silver",
     "additionalInfo": "Specializing in IT and tech solutions"
   },
   {
     "name": "Sunrise Bakery",
-    "address": "789 Oak St, Springfield, IL",
+    "address": "789 Oak St, Rexburg, ID",
     "phone": "555-8765",
     "website": "http://www.sunrisebakery.com",
-    "icon": "sunrise-bakery.png",
+    "image": "placeholder.png",
     "membershipLevel": "Bronze",
     "additionalInfo": "Fresh pastries and bread made daily"
   },
   {
     "name": "Evergreen Landscaping",
-    "address": "101 Pine St, Springfield, IL",
+    "address": "101 Pine St, Rexburg, ID",
     "phone": "555-1010",
     "website": "http://www.evergreenlandscaping.com",
-    "icon": "evergreen-logo.png",
+    "image": "placeholder.png",
     "membershipLevel": "Gold",
     "additionalInfo": "Creating beautiful outdoor spaces for over 20 years"
   },
   {
     "name": "Metro Gym",
-    "address": "202 Maple St, Springfield, IL",
+    "address": "202 Maple St, Rexburg, ID",
     "phone": "555-2020",
     "website": "http://www.metrogym.com",
-    "icon": "metro-gym.png",
+    "image": "placeholder.png",
     "membershipLevel": "Silver",
     "additionalInfo": "State-of-the-art fitness center with personal trainers"
   },
   {
     "name": "Harmony Music Store",
-    "address": "303 Birch St, Springfield, IL",
+    "address": "303 Birch St, Rexburg, ID",
     "phone": "555-3030",
     "website": "http://www.harmonymusicstore.com",
-    "icon": "harmony-music.png",
+    "image": "placeholder.png",
     "membershipLevel": "Bronze",
     "additionalInfo": "Your one-stop shop for musical instruments and lessons"
   },
   {
     "name": "Bright Futures Academy",
-    "address": "404 Cedar St, Springfield, IL",
+    "address": "404 Cedar St, Rexburg, ID",
     "phone": "555-4040",
     "website": "http://www.brightfuturesacademy.com",
-    "icon": "bright-futures.png",
+    "image": "placeholder.png",
     "membershipLevel": "Gold",
     "additionalInfo": "Excellence in education for children of all ages"
   }
