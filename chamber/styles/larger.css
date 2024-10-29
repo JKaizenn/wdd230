@@ -15,12 +15,21 @@
 
     .spotlights {
         display: flex;
-        justify-content: space-around;
-        gap: 20px;  /* Add spacing between spotlight items */
+        flex-direction: column; /* Make the spotlights section stack vertically */
+        align-items: center; /* Center the content */
+        gap: 20px;  /* Add spacing between the heading and spotlight items */
+    }
+
+    .spotlight-heading {
+        text-align: center;
+        font-size: 2em;
+        color: #333333;
+        margin-bottom: 20px;
     }
 
     .spotlight {
-        width: 30%;
+        width: 30%; /* Cards will take up 30% of the available width */
+        margin-bottom: 20px;
     }
 
     .cta, .events, .weather, .spotlights {
@@ -46,5 +55,38 @@
 
     .main-content {
         margin-left: 20px; /* Add space between the sidebar and the main content */
+    }
+}
+
+/* Landscape orientation for larger screens */
+@media (min-width: 769px) and (orientation: landscape) {
+    /* Adjust the flexbox container to handle more space */
+    #spotlightContainer {
+        display: flex;
+        justify-content: space-between; /* Spread cards more evenly in landscape mode */
+        gap: 20px; /* Add space between the cards */
+        flex-wrap: wrap; /* Allow wrapping if necessary */
+    }
+
+    /* Adjust the card width for landscape, to show 3 cards */
+    .spotlight {
+        width: 30%; /* Each card will take up around 30% of the available width */
+        margin-bottom: 20px;
+    }
+
+    /* Ensure the H2 heading is centered and styled consistently */
+    .spotlight-heading {
+        text-align: center;
+        font-size: 2em;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive Adjustment for Smaller Screens */
+@media (max-width: 768px) {
+    .spotlight {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 20px;
     }
 }

@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Welcome to the Chamber of Commerce, your local resource for businesses and events.">
-    <meta name="author" content="Your Name">
+    <meta name="description" content="Welcome to the Chamber of Commerce, your local resource for businesses and events.">
+    <meta name="author" content="Jessen Forbush">
     <title>Chamber of Commerce</title>
 
     <!-- Favicon -->
@@ -18,11 +16,11 @@
     <meta property="og:image" content="https://jkaizenn.github.io/wdd230/chamber/images/rexburg.webp">
     <meta property="og:url" content="https://jkaizenn.github.io/wdd230/chamber/">
 
-<link rel="stylesheet" href="styles/normalize.css">
-<link rel="stylesheet" href="styles/base.css">
-<link rel="stylesheet" href="styles/larger.css">
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
-
 <body>
 
 <header>
@@ -37,66 +35,68 @@
     </nav>
 </header>
 
-    <main>
-<section class="hero">
-    <img src="images/rexburg.webp" alt="Chamber of Commerce Rexburg" class="hero-bg">
-    <div class="hero-text">
-        <h1>Welcome to the Chamber of Commerce</h1>
-        <p>Supporting local businesses and communities.</p>
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/rexburg.webp" alt="Chamber of Commerce Rexburg" class="hero-bg">
+        <div class="hero-text">
+            <h1>Welcome to the Chamber of Commerce</h1>
+            <p>Supporting local businesses and communities.</p>
+        </div>
+    </section>
+
+    <!-- Meet and Greet Banner -->
+    <div id="meetGreetBanner" class="banner">
+        <p>Join us for the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.</p>
+        <button id="closeBanner">❌ Close</button>
     </div>
-</section>
 
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <h2>Join the Chamber</h2>
+        <a href="#" class="btn">Become a Member</a>
+    </section>
 
-        <!-- Call to Action -->
-        <section class="cta">
-            <h2>Join the Chamber</h2>
-            <a href="#" class="btn">Become a Member</a>
-        </section>
+    <!-- Current Events Section -->
+    <section class="events">
+        <h2>Upcoming Events</h2>
+        <p>Stay up to date with the latest happenings in your community.</p>
+    </section>
 
-        <!-- Current Events Section -->
-        <section class="events">
-            <h2>Upcoming Events</h2>
-            <p>Stay up to date with the latest happenings in your community.</p>
-            <!-- Placeholder for future dynamic content -->
-        </section>
+    <!-- Weather Section -->
+    <section class="weather">
+        <h2>Local Weather</h2>
+        <div id="weather" class="weather-card">
+            <h2>Weather in Rexburg</h2>
+            <img id="weather-icon" src="" alt="Weather icon" />
+            <p id="temp"></p>
+            <p id="desc"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+        </div>
+    </section>
+    <!-- Company Spotlights Section -->
+    <section class="spotlights">
+        <h2 class="spotlight-heading">Company Spotlights</h2>
+        <div id="spotlightContainer">
+            <!-- The spotlight cards will be dynamically generated here -->
+        </div>
+    </section>
 
-        <!-- Weather Section -->
-        <section class="weather">
-            <h2>Local Weather</h2>
-            <div id="weather" class="weather-card">
-                <h2>Weather in Rexburg</h2>
-                <img id="weather-icon" src="" alt="Weather icon" />
-                <p id="temp"></p>
-                <p id="desc"></p>
-                <p id="humidity"></p>
-                <p id="wind"></p>
-            </div>
-        </section>
+</main>
 
-        <!-- Company Spotlights Section -->
-        <section class="spotlights">
-            <h2>Company Spotlights</h2>
-            <div class="spotlight">
-                <h3>Company 1</h3>
-                <p>Leading provider of local services.</p>
-            </div>
-            <div class="spotlight">
-                <h3>Company 2</h3>
-                <p>Your trusted business partner.</p>
-            </div>
-        </section>
-    </main>
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Jessen Forbush, Chamber of Commerce</p>
+    <p>Contact: RexburgChamber@chamber.com #(000) 000-0000</p>
+    <p>WDD 230 Project | Last Updated: <span id="lastModified"></span></p>
+</footer>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Jessen Forbush, Chamber of Commerce</p>
-        <p>Contact: RexburgChamber@chamber.com #(000) 000-0000</p>
-        <p>WDD 230 Project | Last Updated: <span id="lastModified"></span></p>
-    </footer>
-
-    <script src="scripts/dates.js"></script>
-    <script src="scripts/menuToggle.js"></script>
-    <script src="scripts/weatherAPI.js"></script>
+<!-- JavaScript Links -->
+<script defer src="scripts/dates.js"></script>
+<script defer src="scripts/menuToggle.js"></script>
+<script defer src="scripts/weatherAPI.js"></script>
+<script defer src="scripts/banner.js"></script>
+<script defer src="scripts/spotlight.js"></script>
 </body>
-
 </html>

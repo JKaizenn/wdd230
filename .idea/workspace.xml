@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Fixed Visit Counter">
-      <change afterPath="$PROJECT_DIR$/chamber/data/members.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chamber/directory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chamber/scripts/directory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chamber/scripts/displayMembers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chamber/scripts/banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chamber/scripts/spotlight.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chamber/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chamber/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/styles/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chamber/styles/larger.css" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/styles/larger.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +34,12 @@
     &quot;assignee&quot;: &quot;JKaizenn&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/JKaizenn/wdd230.git&quot;,
-    &quot;accountId&quot;: &quot;e75d5ac8-4457-4d50-9a99-d1ed22b4d80a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JKaizenn/wdd230.git",
+    "accountId": "e593b550-37c0-4456-be52-39467af0c68e"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
@@ -54,29 +54,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.directory.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.discover.html.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.form.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.join.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.record.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.thankyou.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.menuToggle.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jessenforbush/WebstormProjects/wdd230/chamber&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.directory.html.executor": "Run",
+    "JavaScript Debug.discover.html.executor": "Debug",
+    "JavaScript Debug.form.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.join.html.executor": "Run",
+    "JavaScript Debug.record.html.executor": "Run",
+    "JavaScript Debug.thankyou.html.executor": "Run",
+    "Node.js.menuToggle.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Users/jessenforbush/WebstormProjects/wdd230/chamber",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chamber" />
@@ -88,7 +90,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -122,6 +124,7 @@
       <workItem from="1729889718272" duration="1487000" />
       <workItem from="1730071437049" duration="5074000" />
       <workItem from="1730165360968" duration="2400000" />
+      <workItem from="1730223479391" duration="3387000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Discover Page">
       <option name="closed" value="true" />

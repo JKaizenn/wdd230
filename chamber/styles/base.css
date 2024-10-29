@@ -57,10 +57,12 @@ header nav {
     color: white;
     border-radius: 5px;
 }
+
 h1 {
     text-align: center;
     margin-top: 20px;
 }
+
 .hero {
     position: relative;
     height: 60vh;
@@ -131,6 +133,7 @@ footer p {
     margin: 8px 0;
 }
 
+/* Container for main content and sidebar */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +145,6 @@ footer p {
     flex: 1 1 20%;
     min-width: 200px;
     padding: 10px;
-    box-sizing: border-box;
     background-color: #f9f9f9;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -159,13 +161,13 @@ footer p {
 .main-content {
     flex: 1 1 75%;
     padding: 10px;
-    box-sizing: border-box;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin-left: 20px;
 }
 
+/* Local Photos grid */
 .localPhotos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -208,48 +210,12 @@ footer p {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    .localPhoto:hover {
-        transform: scale(1.05);
-        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
-    }
-
     .main-content {
         margin-left: 0;
     }
-
-    .nav-menu {
-        display: none;
-        flex-direction: row;
-        justify-content: space-around;
-        background-color: #ffffff;
-        padding: 10px 0;
-    }
-    .nav-menu.active {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        background-color: #ffffff;
-        padding: 10px 0;
-    }
-
-    .nav-menu li {
-        list-style: none;
-    }
-
-    .nav-menu a {
-        text-decoration: none;
-        color: #333333;
-        padding: 10px 15px;
-        transition: background-color 0.3s ease, color 0.3s ease;
-    }
-
-    .nav-menu a:hover {
-        background-color: #0056b3;
-        color: white;
-        border-radius: 5px;
-    }
 }
 
+/* Calendar section */
 .calendar-section {
     margin-bottom: 20px;
 }
@@ -276,6 +242,7 @@ footer p {
     background-color: #f4f4f4;
 }
 
+/* Lightbox for images */
 .lightbox {
     display: none;
     position: fixed;
@@ -313,17 +280,16 @@ footer p {
     color: #bbb;
 }
 
-/* Basic form styling */
+/* Form Styling */
 form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin: 20px 0;
-    padding-left: .5rem;
+    padding-left: 0.5rem;
 }
 
 label {
-    display: block;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
@@ -350,7 +316,10 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-/* Responsive two-column layout for form and sidebar */
+textarea {
+    height: 100px;
+}
+
 .form-container {
     display: flex;
     flex-direction: column;
@@ -377,11 +346,7 @@ input[type="submit"]:hover {
     }
 }
 
-textarea {
-    height: 100px;
-}
-
-/* Sidebar benefits list styling */
+/* Sidebar benefits list */
 aside ul {
     list-style-type: disc;
     padding-left: 1rem;
@@ -392,15 +357,7 @@ aside li {
     font-size: 1rem;
 }
 
-/* Hamburger menu styling for mobile */
-.hamburger {
-    background-color: transparent;
-    border: none;
-    font-size: 2rem;
-    cursor: pointer;
-    display: block;
-}
-
+/* Hamburger Menu for Mobile */
 .nav-menu {
     display: none;
 }
@@ -416,6 +373,7 @@ aside li {
     }
 }
 
+/* Grid and List Views */
 .grid-view .card {
     display: inline-block;
     width: 30%;
@@ -437,4 +395,98 @@ aside li {
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+.banner {
+    background-color: #f4e04d;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center; /* Center the banner text */
+    align-items: center;
+}
+
+#closeBanner {
+    background: transparent;
+    border: none;
+    font-size: 1.2em; /* Reduce the size for better visibility on mobile */
+    cursor: pointer;
+    color: #d9534f;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#closeBanner:hover {
+    color: #c9302c;
+    transform: translateY(-50%) scale(1.1); /* Slight zoom on hover */
+}
+
+/* Mobile view adjustments */
+@media (max-width: 600px) {
+    #closeBanner {
+        font-size: 1rem; /* Make it smaller for mobile */
+        right: 10px; /* Adjust position */
+        top: 50%; /* Align vertically */
+        transform: translateY(-50%);
+        padding-top:1.5rem;
+    }
+
+    .banner {
+        padding: 15px; /* Add more padding to the banner */
+        font-size: 1em; /* Ensure the text is readable */
+    }
+}
+
+/* --- NEW: Spotlights Section --- */
+#spotlightContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.spotlight {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+}
+
+.spotlight h3 {
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+
+.spotlight p {
+    margin-bottom: 8px;
+    font-size: 1em;
+    flex-grow: 1;
+}
+
+.spotlight a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Mobile responsiveness for spotlights */
+@media (max-width: 768px) {
+    .spotlight {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
