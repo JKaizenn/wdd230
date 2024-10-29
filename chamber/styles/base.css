@@ -415,3 +415,20 @@ aside li {
         gap: 1rem;
     }
 }
+
+/* Grid View */
+.grid-view .card {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* List View */
+.list-view .list-item {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
