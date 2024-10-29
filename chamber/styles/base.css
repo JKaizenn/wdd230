@@ -166,6 +166,7 @@ footer p {
     margin-left: 20px;
 }
 
+/* Local Photos grid */
 .localPhotos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -177,16 +178,18 @@ footer p {
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /* Keep the transition effect */
 }
 
-@media (min-width: 600px) {
+/* Apply hover effects only on larger screens */
+@media (min-width: 768px) {
     .localPhoto:hover {
         transform: scale(1.05);
         box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
     }
 }
 
+/* Mobile styles */
 @media (max-width: 600px) {
     .container {
         flex-direction: column;
@@ -205,7 +208,7 @@ footer p {
 
     .localPhoto {
         height: 150px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        transition: none; /* Disable transition on mobile */
     }
 
     .main-content {
@@ -213,6 +216,7 @@ footer p {
     }
 }
 
+/* Calendar section */
 #calendar table {
     width: 100%;
     border-collapse: collapse;
@@ -235,6 +239,7 @@ footer p {
     background-color: #f4f4f4;
 }
 
+/* Lightbox for images */
 .lightbox {
     display: none;
     position: fixed;
@@ -272,6 +277,7 @@ footer p {
     color: #bbb;
 }
 
+/* Form styling */
 form {
     display: flex;
     flex-direction: column;
@@ -337,6 +343,7 @@ textarea {
     }
 }
 
+/* Sidebar benefits list */
 aside ul {
     list-style-type: disc;
     padding-left: 1rem;
@@ -347,6 +354,7 @@ aside li {
     font-size: 1rem;
 }
 
+/* Hamburger Menu for Mobile */
 .nav-menu {
     display: none;
 }
@@ -362,6 +370,7 @@ aside li {
     }
 }
 
+/* Grid and List Views */
 .grid-view .card {
     display: inline-block;
     width: 30%;
@@ -414,13 +423,14 @@ aside li {
     transform: translateY(-50%) scale(1.1);
 }
 
+/* Mobile view adjustments */
 @media (max-width: 600px) {
     #closeBanner {
         font-size: 1rem;
         right: 10px;
         top: 50%;
         transform: translateY(-50%);
-        padding-top:1.5rem;
+        padding-top: 1.5rem;
     }
 
     .banner {
@@ -429,6 +439,7 @@ aside li {
     }
 }
 
+/* --- NEW: Spotlights Section --- */
 #spotlightContainer {
     display: flex;
     justify-content: space-around;
@@ -469,6 +480,7 @@ aside li {
     font-weight: bold;
 }
 
+/* Mobile responsiveness for spotlights */
 @media (max-width: 768px) {
     .spotlight {
         width: 100%;

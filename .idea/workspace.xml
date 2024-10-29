@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Added thankyou.css" />
+    <list default="true" id="eb50db30-58a9-4dda-8801-57101850a043" name="Changes" comment="Fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,14 +120,7 @@
       <workItem from="1730223479391" duration="3716000" />
       <workItem from="1730234083508" duration="2581000" />
       <workItem from="1730237549506" duration="76000" />
-    </task>
-    <task id="LOCAL-00001" summary="Fixed Discover Page">
-      <option name="closed" value="true" />
-      <created>1728752143096</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1728752143096</updated>
+      <workItem from="1730237977548" duration="322000" />
     </task>
     <task id="LOCAL-00002" summary="Fixed Meta Element Errors">
       <option name="closed" value="true" />
@@ -513,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730237622149</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Fixes">
+      <option name="closed" value="true" />
+      <created>1730238006330</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1730238006330</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed Meta Elements" />
     <MESSAGE value="Added title H1" />
     <MESSAGE value="Added form" />
     <MESSAGE value="Updated form" />
@@ -556,6 +556,7 @@
     <MESSAGE value="Updated join.html" />
     <MESSAGE value="Complete!" />
     <MESSAGE value="Added thankyou.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added thankyou.css" />
+    <MESSAGE value="Fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes" />
   </component>
 </project>
