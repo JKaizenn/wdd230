@@ -53,7 +53,7 @@ header nav {
 }
 
 .nav-menu a:hover {
-    background-color: #228B22; /* Changed to dark green */
+    background-color: #228B22;
     color: white;
     border-radius: 5px;
 }
@@ -115,7 +115,7 @@ h1 {
 }
 
 .btn:hover {
-    background-color: #228B22; /* Dark green */
+    background-color: #228B22;
 }
 
 footer {
@@ -178,10 +178,9 @@ footer p {
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    transition: transform 0.3s ease; /* Keep the transition effect */
+    transition: transform 0.3s ease;
 }
 
-/* Apply hover effects only on larger screens */
 @media (min-width: 768px) {
     .localPhoto:hover {
         transform: scale(1.05);
@@ -208,7 +207,7 @@ footer p {
 
     .localPhoto {
         height: 150px;
-        transition: none; /* Disable transition on mobile */
+        transition: none;
     }
 
     .main-content {
@@ -343,7 +342,6 @@ textarea {
     }
 }
 
-/* Sidebar benefits list */
 aside ul {
     list-style-type: disc;
     padding-left: 1rem;
@@ -354,30 +352,16 @@ aside li {
     font-size: 1rem;
 }
 
-/* Hamburger Menu for Mobile */
-.nav-menu {
-    display: none;
-}
-
-.nav-menu.show {
-    display: block;
-}
-
-@media (min-width: 768px) {
-    .nav-menu {
-        display: flex;
-        gap: 1rem;
-    }
-}
-
 /* Grid and List Views */
 .grid-view .card {
     display: inline-block;
-    width: 30%;
+    width: 100%;
+    max-width: 300px;
     margin: 1%;
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .list-view .list-item {
@@ -386,60 +370,26 @@ aside li {
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ddd;
+    box-sizing: border-box;
 }
 
-.member-logo {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
 }
 
-.banner {
-    background-color: #004d40;
-    color: #fafafa;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#closeBanner {
-    background: transparent;
-    border: none;
-    font-size: 1.2em;
-    cursor: pointer;
-    color: #ffffff;
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-#closeBanner:hover {
-    color: #c9302c;
-    transform: translateY(-50%) scale(1.1);
-}
-
-/* Mobile view adjustments */
 @media (max-width: 600px) {
-    #closeBanner {
-        font-size: 1rem;
-        right: 10px;
-        top: 50%;
-        transform: translateY(-50%);
-        padding-top: 1.5rem;
-    }
-
-    .banner {
-        padding: 15px;
-        font-size: 1em;
+    .grid-view .card, .list-view .list-item {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 10px;
+        box-sizing: border-box;
     }
 }
 
-/* --- NEW: Spotlights Section --- */
+/* Spotlight Section */
 #spotlightContainer {
     display: flex;
     justify-content: space-around;
@@ -480,10 +430,54 @@ aside li {
     font-weight: bold;
 }
 
-/* Mobile responsiveness for spotlights */
 @media (max-width: 768px) {
     .spotlight {
         width: 100%;
         margin-bottom: 20px;
+    }
+}
+
+/* Banner Styles */
+.banner {
+    background-color: #004d40;
+    color: #fafafa;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#closeBanner {
+    background: transparent;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #ffffff;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#closeBanner:hover {
+    color: #c9302c;
+    transform: translateY(-50%) scale(1.1);
+}
+
+@media (max-width: 600px) {
+    #closeBanner {
+        font-size: 1rem;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-top: 1.5rem;
+    }
+
+    .banner {
+        padding: 15px;
+        font-size: 1em;
     }
 }
